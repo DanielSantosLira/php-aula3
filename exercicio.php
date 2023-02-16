@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aula 3 PHP</title>
+    <title>Aula 3 PHP exercicio 01</title>
 </head>
 
 <body>
