@@ -16,8 +16,12 @@
             <option value="v">V</option>
             <option value="n">N</option>
         </select>
+        <button type="submit">Exibir</button>
     </form>
+    <?php
+     echo "ola mundo";
 
+    ?>
 </body>
 
 </html>
