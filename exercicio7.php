@@ -9,15 +9,7 @@
 </head>
 
 <body>
-    <form action="" method="get">
-        <label>Que turno você estuda?</label>
-        <select id="periodo">
-            <option value="m">M</option>
-            <option value="v">V</option>
-            <option value="n">N</option>
-        </select>
-        <button type="submit">Exibir</button>
-    </form>
+    
     <?php
      echo "ola mundo";
 
