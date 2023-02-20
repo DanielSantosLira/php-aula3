@@ -10,16 +10,18 @@
 
 <body>
     <form action=""  method="get">
-        <section>
+    <label>Que turno você estuda?</label>
+        <select>
+        <option value="">Selecione</option>
         <option value="m">M</option>
         <option value="v">V</option>
         <option value="n">N</option>
-        </section>
+        </select>
         <button type="submit">Exibir</button>
     </form>
     
     <?php
-     echo "ola mundo";
+    
 
     ?>
 </body>
