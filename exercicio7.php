@@ -9,6 +9,14 @@
 </head>
 
 <body>
+    <form action=""  method="get">
+        <section>
+        <option value="m">M</option>
+        <option value="v">V</option>
+        <option value="n">N</option>
+        </section>
+        <button type="submit">Exibir</button>
+    </form>
     
     <?php
      echo "ola mundo";
