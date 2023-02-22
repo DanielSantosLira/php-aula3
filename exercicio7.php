@@ -9,25 +9,29 @@
 </head>
 
 <body>
-    <form action=""  method="get">
-    <label>Que turno você estuda?</label>
+    <h2>Faça um Programa que pergunte em que turno você estuda. Peça para digitar M-matutino <br>
+        ou V-Vespertino ou N- Noturno. Imprima a mensagem "Bom Dia!",<br>
+        "Boa Tarde!" ou "Boa Noite!" ou "Valor Inválido!"</h2><br>
+
+    <form action="" method="get">
+        <label>Que turno você estuda?</label>
         <select id="turno">
-        <option value="">Selecione</option>
-        <option value="m">M</option>
-        <option value="v">V</option>
-        <option value="n">N</option>
+            <option value="">Selecione</option>
+            <option value="m">M</option>
+            <option value="v">V</option>
+            <option value="n">N</option>
         </select>
         <button type="submit">Exibir</button>
     </form>
-    
-    <?php
-      $turno1 = $_GET['m'];
-      $turno2 = $_GET['v'];
-      $turno3 =$_GET ['n'];
 
-      $turno1 = ('m');
-      echo 'Bom dia'. $turno1;
-    
+    <?php
+    $turno1 = $_GET['m'];
+    $turno2 = $_GET['v'];
+    $turno3 = $_GET['n'];
+
+    $turno1 = ('m');
+    echo 'Bom dia' . $turno1;
+
     ?>
 </body>
 
