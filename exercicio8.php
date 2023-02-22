@@ -22,8 +22,8 @@
 
     $salario = $_GET['salario'];
 
-    if(){
-        
+   
+
     }
 
     ?>
