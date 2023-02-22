@@ -12,13 +12,13 @@
         colaboradores e lhe contraram para desenvolver o programa que calculará os reajustes</h2><br>
     <form action="" method="get">
     <label for="">Reajuste de Salario</label>
-     <input type="text" value="" id="txtvalue" name="txtvalue" />
+     <input type="text" value="" id="txtvalue" name="salario" />
     <button type="submit">Calcular</button>
     </form>
 
     <?php
 
-$salario = $_GET['']
+$salario = $_GET['salario']
 
     ?>
 </body>
