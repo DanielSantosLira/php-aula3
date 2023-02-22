@@ -7,6 +7,9 @@
     <title>Exercicio 8 PHP</title>
 </head>
 <body>
+<h2>conforme o caso.
+        As Organizações Tabajara resolveram dar um aumento de salário aos seus <br>
+        colaboradores e lhe contraram para desenvolver o programa que calculará os reajustes</h2><br>
     <form action="" method="get">
     <label for="">Reajuste de Salario</label>
      <input type="text" value="" id="txtvalue" name="txtvalue" />
