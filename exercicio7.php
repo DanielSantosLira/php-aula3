@@ -15,7 +15,7 @@
 
     <form action="" method="get">
         <label>Que turno você estuda?</label>
-        <select id="turno">
+        <select name="turno">
             <option value="">Selecione</option>
             <option value="m">M</option>
             <option value="v">V</option>
@@ -25,13 +25,17 @@
     </form>
 
     <?php
-    $turno1 = $_GET['m'];
-    $turno2 = $_GET['v'];
-    $turno3 = $_GET['n'];
-
-    $turno1 = ('m');
-    echo 'Bom dia' . $turno1;
-
+    $turno = $_GET['turno'];
+    
+    if($turno == 'm'){
+    echo 'Bom dia!'; 
+    }if(($turno == 'v')){
+     echo  "Boa Tarde!";
+    
+    }if(($turno == 'n')){
+     echo  "Boa Noite!";
+    
+    }
     ?>
 </body>
 
