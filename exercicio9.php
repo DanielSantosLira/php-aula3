@@ -16,10 +16,13 @@ se for mostrar a mensagem "PODE DIRIGIR"
 senão não mostar mensagem "pode dirigir"
  */
 $idade = 18;
- if($idae >= 18){
+
+ if($idade >= 18){
     echo "pode dirigir";
  }else{
     echo "não pode dirigir";
+   
  }
+ 
  
 ?>
