@@ -126,6 +126,61 @@ for($i = 0 ; $i <= 20; $i++){
 
 echo "<hr>";
 
+ #### Array
+ /*
+$fruta01 = "🍓";
+$fruta02 = "🍇";
+$fruta03 = "🥥";
+*/
+/*
+$fruta = array();
+$frutas[0] = "🍓";
+$frutas[1] = "🍇";
+$frutas[2] = "🥥";
+*/
+$frutas = ["🍓",  "🍇",  "🥥"];
+$frutas[3] = "🍍";
+array_push($frutas, "🍒");
+
+ //echo gettype($frutas);
+
+ echo count($frutas);
+
+echo "<h1>Salada de frutas</h1>";
+
+$qtd = count($frutas);
+
+$contador = 0;
+
+while($contador < $qtd){
+   echo "$contador";
+   echo " fruta : $frutas[$contador]  <br>";
+   $contador++;
+}
+echo "<hr>";
+
+for($i = 0; $i <  count($frutas); $i++){
+   echo $frutas[$i];
+}
+echo "<hr>";
+
+$carros = [ "🚗",  "🚛",  "🚜", "🚔", "🚑",  "🚚"];
+$carros[6] = "🚖";
+array_push($carros, "🚒");
+
+
+$qtd = count($carros);
+$contador = 0;
+
+echo "<h1>Carros do futuro</h1>";
+
+while($contador < $qtd){
+   echo "$contador";
+   echo " carros : $carros[$contador]  <br>";
+   $contador++;
+}
+
+
 
 
 
