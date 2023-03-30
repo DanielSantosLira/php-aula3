@@ -18,13 +18,14 @@
       Bairro <input type="text" name="bairro"><br><br>
       Complemento: <input type="text" name="comple"> <br><br>
       Cidade: <input type="text" name="cid"><br><br>
+      Estado:
       <select name="estado" id="">
         <option value="sp">SP</option>
         <option value="rj">RJ</option>
         <option value="mg">MG</option>
         <option value="al">AL</option>
-      </select>
-      Data de Nacimento <input type="number" name="dtn"><br><br>
+      </select><br><br>
+      Data de Nacimento <input type="number" name="dtn" ><br><br>
       CPF <input type="number" name="cpf"><br><br>
       RG <input type="number" name="rg"><br><br>
       Whatsapp :<input type="number" name="whats"><br><br>
