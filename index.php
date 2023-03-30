@@ -1,10 +1,11 @@
 <?php
+echo "<h1>Tabuada do 8 </h1><br>";
 
-$numero = 0;
+echo "8 * 1". " = " .(8 * 1) . "<br>";
+echo "8 * 2 ". " = " .(8 * 2) . "<br>";
+echo "8 * 3". " = " .(8 * 3) . "<br>";
+echo "8 * 4". " = " .(8 * 4) . "<br>";
+echo "8 * 4". " = " .(8 * 4) . "<br>";
 
-if ($numero >= 100){
-  echo $numero;
-  $numero++;
-}
 
 ?>
