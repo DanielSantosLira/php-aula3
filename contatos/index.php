@@ -48,13 +48,42 @@
             <option value="TO">Tocantins</option>
             <option value="EX">Estrangeiro</option>
         </select><br><br>
-        <button type="submit">Salvar Cliente</button>
+        <button type="submit">Salvar Cliente</button><br><br>
     </form>
+    
+    <?php
+    $arquivo = fopen("clientes.csv", "r");
+
+    //$conteudo =  fgets($arquivo,  filesize("clientes.csv"));
+    
+    //echo $conteudo;
+     while(!feof($arquivo)){
+        $linha = fgets($arquivo);
+        
+        $registro = explode(",", $linha);
+
+       if($registro[0] != ""){
+        echo $registro[0] . "--";
+        echo $registro[1] . "--";
+        echo $registro[2] . "--";
+        echo $registro[3] . "--";
+        echo $registro[4] . "<br>";
+       }
+    
+        
+     }
+     fclose($arquivo);
+    ?>
+
+
+
+
+
 <script>
     <?php
     $msg = $_GET["mensagem"] ?? "";
     if($msg == "salvar"){
-        echo "alest('Cliente salvo com sucesso!!!!')";
+        echo "alert('Cliente salvo com sucesso!!!!')";
     }
     ?>
     </script>
