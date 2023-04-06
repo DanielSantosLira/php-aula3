@@ -14,11 +14,11 @@
     <form action="salvar.php" method="post">
         Nome:<input name="nome" maxlength="50" required /> <br><br>
         Sobrenome:<input type="sobrenome" name="sobrenome" required><br><br>
-        Email:<input type="email" value="@gmail.com" required/><br><br>
+        Email:<input type="email"   name="email" value="@gmail.com" required/><br><br>
         Telefone:<input type="tel" maxlength="15" name="telefone" /><br><br>
-        Cidade:<input name="cidade" maxlength="40" /><br><br>
+        Cidade:<input name="cidade" maxlength="40" required/><br><br>
         Estado:
-        <select id="estado" name="estado">
+        <select id="estado" name="estado" required>
             <option value="AC">Acre</option>
             <option value="AL">Alagoas</option>
             <option value="AP">Amapá</option>
@@ -50,6 +50,15 @@
         </select><br><br>
         <button type="submit">Salvar Cliente</button>
     </form>
+<script>
+    <?php
+    $msg = $_GET["mensagem"] ?? "";
+    if($msg == "salvar"){
+        echo "alest('Cliente salvo com sucesso!!!!')";
+    }
+    ?>
+    </script>
+   
 </body>
 
 </html>
